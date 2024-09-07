@@ -26,40 +26,40 @@ import pr from '../assets/skills/pr.png'
 
 const Skills = () => {
     return (
-        <div className='bg-[#282828] py-16' id='skills'>
-            <h1 className='text-white text-center text-4xl py-10'>TECHNICAL SKILLS</h1>
-            <div className='lg:flex lg:flex-col lg:gap-16 lg:pt-10 lg:pb-20 lg:px-20 flex flex-col gap-10'>
+        <div className='bg-[#282828] md:py-16 pt-8 pb-14' id='skills'>
+            <h1 className='text-white text-center md:text-4xl text-2xl py-10'>TECHNICAL SKILLS</h1>
+            <div className='lg:flex lg:flex-col lg:gap-16 lg:pt-10 lg:pb-20 lg:px-20 flex flex-col gap-7 md:px-0 px-3'>
                 <div className='lg:flex lg:justify-center 2xl:gap-[150px] md:gap-[70px] lg:gap-[70px] flex justify-center flex-wrap lg:flex-nowrap gap-10'>
-                    <img className='h-20 w-20' src={html} alt='...'/>
-                    <img className='h-20 w-20' src={css} alt='...'/>
-                    <img className='h-20 w-20' src={js} alt='...'/>
-                    <img className='h-20 w-20' src={bootstrap} alt='...'/>
-                    <img className='h-20 w-20' src={tailwind} alt='...'/>
-                    <img className='h-20 w-20' src={jquery} alt='...'/>
-                    <img className='h-20 w-20' src={reactlogo} alt='...'/>
+                    <img className='md:h-20 h-10 w-10 md:w-20' src={html} alt='...'/>
+                    <img className='md:h-20 h-10 w-10 md:w-20' src={css} alt='...'/>
+                    <img className='md:h-20 h-10 w-10 md:w-20' src={js} alt='...'/>
+                    <img className='md:h-20 h-10 w-10 md:w-20' src={bootstrap} alt='...'/>
+                    <img className='md:h-20 h-10 w-10 md:w-20' src={tailwind} alt='...'/>
+                    <img className='md:h-20 h-10 w-10 md:w-20' src={jquery} alt='...'/>
+                    <img className='md:h-20 h-10 w-10 md:w-20' src={reactlogo} alt='...'/>
                 </div>
-                <div className='lg:flex lg:justify-center 2xl:gap-[130px] md:gap-[80px] lg:gap-[80px] flex justify-center flex-wrap lg:flex-nowrap gap-16'>
-                    <img className='h-20 w-20' src={flowbitelogo} alt='...'/>
-                    <img className='h-20 w-20' src={redux} alt='...'/>
-                    <img className='h-20 w-20' src={firebase} alt='...'/>
-                    <img className='h-20 w-20' src={sql} alt='...'/>
-                    <img className='h-20 w-20' src={nodejs} alt='...'/>
+                <div className='lg:flex lg:justify-center 2xl:gap-[130px] md:gap-[80px] lg:gap-[80px] flex justify-center flex-wrap lg:flex-nowrap gap-10'>
+                    <img className='md:h-20 h-10 w-10 md:w-20' src={flowbitelogo} alt='...'/>
+                    <img className='md:h-20 h-10 w-10 md:w-20' src={redux} alt='...'/>
+                    <img className='md:h-20 h-10 w-10 md:w-20' src={firebase} alt='...'/>
+                    <img className='md:h-20 h-10 w-10 md:w-20' src={sql} alt='...'/>
+                    <img className='md:h-20 h-10 w-10 md:w-20' src={nodejs} alt='...'/>
                 </div>
                 <div className='lg:flex lg:justify-center 2xl:gap-[130px] md:gap-[50px] lg:gap-[50px] flex justify-center flex-wrap lg:flex-nowrap gap-10'>
-                    <img className='h-20 w-20' src={npm} alt='...'/>
-                    <img className='h-20' src={mongodb} alt='...'/>
-                    <img className='h-20' src={express} alt='...'/>
-                    <img className='h-20 w-20' src={netlify} alt='...'/>
-                    <img className='h-20 w-20' src={vercel} alt='...'/>
-                    <img className='h-20 w-20 rounded-full' src={render} alt='...'/>
-                    <img className='h-20 w-20' src={git} alt='...'/>
+                    <img className='md:h-20 h-10 w-10 md:w-20' src={npm} alt='...'/>
+                    <img className='md:h-20 h-10' src={mongodb} alt='...'/>
+                    <img className='md:h-20 h-10' src={express} alt='...'/>
+                    <img className='md:h-20 h-10 w-10 md:w-20' src={netlify} alt='...'/>
+                    <img className='md:h-20 h-10 w-10 md:w-20' src={vercel} alt='...'/>
+                    <img className='md:h-20 md:w-20 w-10 rounded-full' src={render} alt='...'/>
+                    <img className='md:h-20 h-10 w-10 md:w-20' src={git} alt='...'/>
                 </div>
-                <div className='lg:flex lg:justify-center 2xl:gap-[130px] md:gap-[80px] lg:gap-[80px] flex justify-center flex-wrap lg:flex-nowrap gap-16'>
-                    <img className='h-20 w-20' src={github} alt='...'/>
-                    <img className='h-20 w-20' src={figma} alt='...'/>
-                    <img className='h-20 w-20' src={xd} alt='...'/>
-                    <img className='h-20 w-20' src={ps} alt='...'/>
-                    <img className='h-20 w-20' src={pr} alt='...'/>
+                <div className='lg:flex lg:justify-center 2xl:gap-[130px] md:gap-[80px] lg:gap-[80px] flex justify-center flex-wrap lg:flex-nowrap gap-10'>
+                    <img className='md:h-20 h-10 w-10 md:w-20' src={github} alt='...'/>
+                    <img className='md:h-20 h-10 w-10 md:w-20' src={figma} alt='...'/>
+                    <img className='md:h-20 h-10 w-10 md:w-20' src={xd} alt='...'/>
+                    <img className='md:h-20 h-10 w-10 md:w-20' src={ps} alt='...'/>
+                    <img className='md:h-20 h-10 w-10 md:w-20' src={pr} alt='...'/>
                 </div>
             </div>
         </div>

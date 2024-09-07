@@ -1,17 +1,10 @@
 
-.vertical-divider{
-    border-left: 2px solid #282828;
-    height: auto;
-}
 
 .card{
     background-color: #383838;
     border-radius: 10px;
     padding: 0px 20px 20px 20px;
     transition:  0.5s;
-}
-.date{
-    position: relative;
 }
 .info{
     display: flex;
@@ -25,7 +18,7 @@
     padding-top: 10px;
 }
 #prev, #next{
-    color: #8f8f8f;
+    color: #cccccc;
     background: none;
     border: none;
     font-size: xxx-large;
@@ -37,5 +30,5 @@
 #prev:hover,
 #next:hover{
     opacity: 1;
-    color: #a3a3a3;
+    color: #eeeeee;
 }

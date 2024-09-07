@@ -15,26 +15,26 @@ div {
     color: white;
     text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
     font-weight: 100;
-    .main {
-        font-size: 50px;
-    }
-    .sub {
-        font-size: 27px;
-        letter-spacing: 2px;
-    }
+    // .main {
+    //     font-size: 50px;
+    // }
+    // .sub {
+    //     font-size: 27px;
+    //     letter-spacing: 2px;
+    // }
 }
 `;
 
 const WelcomeMessage = () => (
     <MyWelcomeMessage>
-        <div className="mt-[-330px] xl:mt-[-165px] mx-10 xl:mx-14 special-elite-regular">
-            <div className="heading">
-                <div className="main text-center mb-3">
+        <div className="mt-[-270px] md:mt-[-250px] lg:mt-[-240px] xl:mt-[-180px] mx-10 xl:mx-14 special-elite-regular">
+            <div className="md:leading-10 leading-6">
+                <div className="md:text-[50px] md:leading-[80px] leading-10 text-2xl text-center mb-3">
                     Hi, I am
                     <br />
                 <span><strong>Souvik Nath</strong></span>
                 </div>
-                <div className="sub">
+                <div className="md:text-[27px] text-lg tracking-[2px]">
                     <Typewriter options={{
                         strings: ["MERN-stack Developer", "Tech Enthusiast", "Photographer", "Video Editor", "Gamer"],
                         autoStart: true,

@@ -179,49 +179,49 @@ const Slider = () => {
 
     return (
         <div className='bg-gradient-to-b from-[#282828] to-[#121212] lg:py-16 z-0' id='projects'>
-            <h1 className='text-white text-center text-4xl pt-16 pb-32'>PROJECTS</h1>
-            <div className="slider z-10 lg:relative lg:w-[100%] lg:h-[800px] lg:overflow-hidden relative w-[100%] h-[1000px] overflow-hidden">
+            <h1 className='text-white text-center md:text-4xl text-2xl md:pt-16 md:pb-32 pt-6 pb-16'>PROJECTS</h1>
+            <div className="slider z-10 lg:relative lg:w-[100%] lg:h-[800px] lg:overflow-hidden relative w-[100%] h-[700px] overflow-hidden">
                 {items.map((item, index) => (
                     <div
                         key={index}
-                        className="card text-slate-100 shadow-lg lg:w-[600px] lg:absolute lg:left-[calc(50%-300px)] lg:top-0 w-[350px] absolute left-[calc(50%-180px)]"
+                        className="card text-slate-100 shadow-lg lg:w-[600px] lg:absolute lg:left-[calc(50%-300px)] lg:top-0 w-[300px] absolute left-[calc(50%-150px)]"
                         ref={(el) => (cardRefs.current[index] = el)}
                     >
                         <div>
                             <a href={item.liveLink} target='blank'><img src={item.image} alt='...' className="image rounded-b-[150px] lg:w-[500px] lg:my-0 lg:mx-[5.5%] w-[400px]" /></a>
                         </div>
                         <div className="info">
-                            <div className="date">
+                            <div className="relative md:block hidden">
                                 <h1>
                                     <span className='lg:text-[60px] text-[25px]'>{item.date.split(' ')[0]}</span><br/>
                                     <sup className='absolute lg:text-[15px] text-[10px] lg:top-[85px] top-[36px]' >{item.date.split(' ')[1]}</sup>
                                     <span className='lg:text-[20px] font-light text-[15px]'>{item.date.split(' ')[2]}</span>
                                 </h1>
                             </div>
-                            <div className="vertical-divider" />
+                            <div className="border-l-[2px] border-solid border-[#282828] h-auto hidden md:block" />
                             <div className="flex flex-col gap-4">
-                                <h3 className='text-2xl font-semibold'>{item.title}</h3>
+                                <h3 className='md:text-2xl text-lg font-semibold'>{item.title}</h3>
                                 {/* <p>Lorem ipsum<br />11:00 am</p> */}
-                                <p>{item.description}</p>
-                                <ul className='list-disc list-inside text-slate-300'>
+                                <p className='text-sm md:text-base'>{item.description}</p>
+                                <ul className='list-disc list-inside text-slate-300 text-xs md:text-sm'>
                                     <li>{item.point1}</li>
                                     <li>{item.point2}</li>
                                     <li>{item.point3}</li>
                                     <li>{item.point4}</li>
                                 </ul>
                                 <div className='flex gap-4'>
-                                    <a className='bg-cyan-800 lg:px-4 lg:py-2 lg:mb-4 rounded-sm hover:bg-cyan-700 duration-300 px-2 py-1' href={item.liveLink} target='blank'>LIVE PREVIEW</a>
-                                    <a className='bg-cyan-800 lg:px-4 lg:py-2 lg:mb-4 rounded-sm hover:bg-cyan-700 duration-300 px-2 py-1' href={item.code} target='blank'>CODE</a>
+                                    <a className='bg-cyan-800 lg:px-4 lg:py-2 lg:mb-4 rounded-sm hover:bg-cyan-700 duration-300 px-2 py-1 md:text-base text-sm' href={item.liveLink} target='blank'>LIVE PREVIEW</a>
+                                    <a className='bg-cyan-800 lg:px-4 lg:py-2 lg:mb-4 rounded-sm hover:bg-cyan-700 duration-300 px-2 py-1 md:text-base text-sm' href={item.code} target='blank'>CODE</a>
                                 </div>
                             </div>
                         </div>
                         
                     </div>
                 ))}
-                <button className='absolute lg:left-[50px] lg:top-[40%] top-[40%] left-[10px]' id="prev" onClick={prevSlide}>
+                <button className='absolute lg:left-[50px] lg:top-[40%] top-[30%] left-[10px] z-20' id="prev" onClick={prevSlide}>
                     {'<'}
                 </button>
-                <button className='absolute lg:right-[50px] lg:top-[40%] top-[40%] right-[10px]' id="next" onClick={nextSlide}>
+                <button className='absolute lg:right-[50px] lg:top-[40%] top-[30%] right-[10px] z-20' id="next" onClick={nextSlide}>
                     {'>'}
                 </button>
             </div>
