@@ -6,7 +6,7 @@ import {HiCalendar} from 'react-icons/hi2'
 
 const Education = () => {
     return (
-        <div className='px-8 lg:pt-28 bg-[#282828] flex flex-col items-center' id='education'>
+        <div className='px-8 lg:pt-24 pt-14 bg-[#282828] flex flex-col items-center' id='education'>
             <h1 className='md:text-4xl text-2xl text-center md:py-16 py-6 text-white'>EDUCATION</h1>
             <Timeline className='mt-10' >
                 <Timeline.Item>

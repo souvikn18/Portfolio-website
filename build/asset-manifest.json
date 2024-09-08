@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.25c52872.css",
-    "main.js": "/static/js/main.199ab8ce.js",
+    "main.css": "/static/css/main.842df335.css",
+    "main.js": "/static/js/main.203b6e58.js",
     "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
     "static/media/gaminglanding.PNG": "/static/media/gaminglanding.4f20e87aaac5d660a128.PNG",
     "static/media/pexels-danny-meneses-340146-943096.jpg": "/static/media/pexels-danny-meneses-340146-943096.54b40cd737102e1051ec.jpg",
@@ -38,12 +38,12 @@
     "static/media/figma.png": "/static/media/figma.257e6178b0dce1bce576.png",
     "static/media/npm.png": "/static/media/npm.5904c46fdce9a3192c3b.png",
     "index.html": "/index.html",
-    "main.25c52872.css.map": "/static/css/main.25c52872.css.map",
-    "main.199ab8ce.js.map": "/static/js/main.199ab8ce.js.map",
+    "main.842df335.css.map": "/static/css/main.842df335.css.map",
+    "main.203b6e58.js.map": "/static/js/main.203b6e58.js.map",
     "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.25c52872.css",
-    "static/js/main.199ab8ce.js"
+    "static/css/main.842df335.css",
+    "static/js/main.203b6e58.js"
   ]
 }

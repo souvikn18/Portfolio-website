@@ -26,7 +26,7 @@ import pr from '../assets/skills/pr.png'
 
 const Skills = () => {
     return (
-        <div className='bg-[#282828] md:py-16 pt-8 pb-14' id='skills'>
+        <div className='bg-[#282828] md:py-16 pt-10 pb-14' id='skills'>
             <h1 className='text-white text-center md:text-4xl text-2xl py-10'>TECHNICAL SKILLS</h1>
             <div className='lg:flex lg:flex-col lg:gap-16 lg:pt-10 lg:pb-20 lg:px-20 flex flex-col gap-7 md:px-0 px-3'>
                 <div className='lg:flex lg:justify-center 2xl:gap-[150px] md:gap-[70px] lg:gap-[70px] flex justify-center flex-wrap lg:flex-nowrap gap-10'>
